@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STREET FOODS</title>
+</head>
+<body>
+
+<header>
+    <h1>STREET FOOD IN DELHI</h1>
+</header>
+
+<section>
+    <p>Delhi, the nation's capital, is not only known for its rich history and culture but also for its delicious cuisine. This city is a paradise for street food lovers. What are must-try street foods in Delhi?</p>
+</section>
+
+<section>
+    <h2>Images</h2>
+    <p>So mostly everyone here know how delicious these street foods tastes... Hope you all like:)</p>
+    
+    <h2>Samosaa</h2>
+    <img width="480" height="305" src="https://c.ndtvimg.com/2023-03/0m65kep_samosa_625x300_10_March_23.jpg" alt="Samosaa">
+    <p>detailed video to know best place to eat</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/-gYp6zPboIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Cheesy Vegetable Sandwich</h2>
+    <img width="480" height="305" src="https://i.ytimg.com/vi/STqpxqrk0bU/maxresdefault.jpg" alt="Cheesy Vegetable Sandwich">
+    <p>detailed video to know best place to eat</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/-rRai4Z2YG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Onion Vada</h2>
+    <img width="480" height="305" src="https://sadhyafoodie.com/wp-content/uploads/2021/04/ulli-vada.jpeg" alt="Onion Vada">
+    <p>detailed video to know best place to eat</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/9TYotvTQVDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Chole Bhature</h2>
+    <img width="480" height="305" src="https://img-global.cpcdn.com/recipes/a8d65b425be0caf9/680x482cq70/%E0%A4%AA%E0%A4%9C%E0%A4%AC-%E0%A4%9B%E0%A4%B2-%E0%A4%AD%E0%A4%9F%E0%A4%B0-punjabi-chole-bhature-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg" alt="chole Bhature">
+    <p>detailed video to know best place to eat</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/73iK-tT667k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+
+
+<section>
+    <p>Do visit the above mentioned locations to experience the best street food in Delhi</p>
+</section>
+
+<footer>
+    <p>&copy;Sonali Yadav CB23265</p>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+
